@@ -5,11 +5,12 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -20,25 +21,31 @@ body {
   margin: 0;
 }
 
-article {
+.img-flex {
   display: block;
+  width: 100%;
 }
 
-.watermelon {
+.card-1 {
   background-color: #e97065;
-  font-family: "Rammetto One", cursive;
 }
 
-.starfruit {
+.card-1 h2 {
+  font-family: "Rammetto One";
+}
+
+.card-2 {
   background-color: #fbd25e;
-  font-family: "Gravitas One", cursive;
 }
 
-.persimmon {
+.card-2 h2 {
+  font-family: "Gravitas One";
+}
+
+.card-3 {
   background-color: #e86033;
-  font-family: "Comfortaa", cursive;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
+.card-3 h2 {
+  font-family: Comfortaa;
 }
